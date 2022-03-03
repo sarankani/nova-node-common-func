@@ -10,3 +10,5 @@ You need to install the following software
  - latest npm version more than or - Npm v 7.20.0
 
 ### Usuage
+const novecode = require('nova-node-common-func');
+console.log(novecode.getShortName('Novastrid Functions'));
