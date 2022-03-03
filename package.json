@@ -66,6 +66,7 @@
         "supertest": "^6.1.4"
     },
     "scripts": {
-        "test": "npm run test"
+        "test": "npm run test",
+        "start" : "node index.js"
     }
 }
