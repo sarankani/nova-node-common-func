@@ -1,0 +1,72 @@
+{
+    "name": "nova-node-common-func",
+    "version": "1.0.0",
+    "description": "Novastrid node common functions",
+    "homepage": "http://novastrid.com",
+    "author": "Saravanan",
+    "keywords": [
+        "novastrid"
+    ],
+    "main": "./index.js",
+    "engines": {
+        "node": ">=14.17.3"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sarankani/nova-node-common-func.git"
+    },
+    "bugs": {
+        "url": "https://github.com/sarankani/nova-node-common-func/issues"
+    },
+    "jest": {
+        "verbose": true,
+        "testEnvironment": "node",
+        "coveragePathIgnorePatterns": [
+          "/node_modules/"
+        ],
+        "transformIgnorePatterns": [
+          "node_modules/(?!(jest-)?react-native|react-clone-referenced-element|@react-native-community|expo(nent)?|@expo(nent)?/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|@sentry/.*)"
+        ]
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "async": "latest",
+        "axios": "^0.25.0",
+        "cross-env": "latest",
+        "es6-promise": "latest",
+        "eslint": "~6",
+        "file-system": "^2.2.2",
+        "html-entities": "^2.3.2",
+        "joi": "^17.4.1",
+        "load-grunt-tasks": "latest",
+        "lodash": "latest",
+        "moment": "^2.29.1",
+        "moment-timezone": "^0.5.33",
+        "multer": "^1.4.3",
+        "node-qunit": "latest",
+        "nyc": "latest",
+        "path": "latest",
+        "prettier": "latest",
+        "uglify-js": "latest"
+    },
+    "devDependencies": {
+        "eslint": "^7.31.0",
+        "eslint-config-airbnb-base": "^14.2.1",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-import": "^2.23.4",
+        "eslint-plugin-jest": "^24.4.0",
+        "eslint-plugin-prettier": "^3.4.0",
+        "jest": "^27.0.6",
+        "jest-expo": "^42.1.0",
+        "nodemon": "^2.0.12",
+        "pre-commit": "^1.2.2",
+        "prettier": "^2.3.2",
+        "sinon": "^11.1.1",
+        "sinon-chai": "^3.7.0",
+        "supertest": "^6.1.4"
+    },
+    "scripts": {
+        "test": "npm run test",
+        "eslint": "eslint Gruntfile.js tasks src",
+    },
+}
